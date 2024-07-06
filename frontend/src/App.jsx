@@ -7,9 +7,15 @@ import { Signup } from "./pages/Signup";
 import { Signin } from "./pages/Signin";
 import { Dashboard } from "./pages/Dashboard";
 import { SendMoney } from "./pages/SendMoney";
+import axios from "axios";
 
 
 function App() {
+  // axios.post(''){
+  //   .then(result => console.log(result))
+  //   .catch(err => console.log(err))
+  //  }
+  // changes for vercel 
   return (
     <>
        <BrowserRouter>
